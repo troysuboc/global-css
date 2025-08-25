@@ -1658,40 +1658,14 @@ canvas.bg3 {
   z-index: -999;
 }
 
-/*song obssessions styles*/
-.song-obssessions-wrapper {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 .song-obssessions-nest {
   height: calc(100dvh - clamp(3.5rem, 2.8681rem + 2.7473vw, 6rem));
-  box-sizing: border-box;
-}
-.song-obssessions-nest iframe {
-  width:100%; 
-  height:100%; 
-  border:none;
-}
-
-/*song obssessions styles*/
-.song-obssessions-wrapper {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.song-obssessions-nest {
   display: flex;
   gap: clamp(0.625rem, 0.467rem + 0.6868vw, 1.25rem);
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(5px);
   width: 100%;
-  height: 100dvh;
   padding: clamp(0.5rem, 0.2313rem + 1.1681vw, 1.563rem);
   box-sizing: border-box;
   overflow: hidden;
